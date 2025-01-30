@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("https://api.pridebot.xyz/commands")
+    fetch("https://api.portalnet.work/commands")
       .then((response) => response.json())
       .then((data) => {
         const accordionContainer = document.querySelector(".accordion");
