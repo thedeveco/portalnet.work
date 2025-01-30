@@ -1,6 +1,6 @@
 async function fetchBotStats() {
     try {
-      const response = await fetch("https://api.pridebot.xyz/stats");
+      const response = await fetch("https://api.portalnet.work/stats");
       const data = await response.json();
       document.getElementById("totalServers").textContent =
         data.currentGuildCount.toLocaleString();
