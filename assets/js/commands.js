@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("https://api.portalnet.work/commands")
+  fetch("34.56.102.48:443/commands")
     .then((response) => response.json())
     .then((data) => {
       const accordionContainer = document.querySelector(".accordion");
