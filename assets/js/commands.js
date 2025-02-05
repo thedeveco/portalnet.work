@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("http://34.56.102.48:443/commands")
+  fetch("http://34.56.102.48:443/stats", {
+    referrerPolicy: "unsafe-url"
+  })
     .then((response) => response.json())
     .then((data) => {
       const accordionContainer = document.querySelector(".accordion");
