@@ -1,6 +1,6 @@
 async function fetchBotStats() {
   try {
-    const response = await fetch("//34.56.102.48:443/stats");
+    const response = await fetch("http://34.56.102.48:443/stats");
     const data = await response.json();
     document.getElementById("totalServers").textContent =
       data.currentGuildCount.toLocaleString();
