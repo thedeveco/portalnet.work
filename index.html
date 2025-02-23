@@ -143,58 +143,48 @@
 
     <!-- Header section with logo, title, description, and call-to-action buttons -->
     <header
-      class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center"
-      style="height: 418px; text-align: center; margin: 55px"
-    >
-      <!-- Portal logo image -->
-      <img
-        class="rounded"
-        src="assets/images/portalLogo.png"
-        style="margin-top: 15px"
-      />
-      <!-- Main heading for the bot -->
-      <h1
-        class="d-xl-flex justify-content-xl-start"
-        style="color: var(--text-color)"
+  class="d-xl-flex flex-column justify-content-xl-center align-items-xl-start"
+  style="height: 418px; text-align: left; margin: 55px"
+>
+  <!-- Portal logo image 
+  <img
+    class="rounded"
+    src="assets/images/portalLogo.png"
+    style="margin-top: 15px"
+  />
+  -->
+  <!-- Main heading for the bot -->
+  <h1 class="d-xl-flex justify-content-xl-start" style="color: var(--text-color)">
+    Connect, discover, and share without limits
+  </h1>
+  <!-- Short description of the bot -->
+  <p style="color: var(--secondary-text-color); font-size: 20px">
+    portalBot links Discord servers and platforms, making it effortless to communicate and travel across diverse communities. It automates the discovery and sharing of valuable interactions and resources, with AI-powered summaries for social media and mailing lists, plus web-searchable Discord forums—ensuring your community’s best content reaches beyond Discord to the wider world.
+  </p>
+  <!-- Animated call-to-action buttons container -->
+  <div class="tada animated">
+    <div role="group" class="btn-group">
+      <!-- Button to invite the bot -->
+      <a
+        href="https://discord.com/oauth2/authorize?client_id=1309741433238065194&permissions=322577&integration_type=0&scope=applications.commands+bot"
+        class="btn btn-primary shadow-none"
+        type="button"
+        style="margin: 5px; background-color: var(--main-color); border-color: var(--main-color); border-radius: 10px;"
       >
-        portalBot
-      </h1>
-      <!-- Short description of the bot -->
-      <p style="color: var(--secondary-text-color); font-size: 20px">
-        A Borderless Discord Network of Communities
-      </p>
-      <!-- Animated call-to-action buttons container -->
-      <div class="tada animated">
-        <div role="group" class="btn-group">
-          <!-- Button to invite the bot -->
-          <a
-            href="https://discord.com/oauth2/authorize?client_id=1309741433238065194&permissions=322577&integration_type=0&scope=applications.commands+bot"
-            class="btn btn-primary shadow-none"
-            type="button"
-            style="
-              margin: 5px;
-              background-color: var(--main-color);
-              border-color: var(--main-color);
-              border-radius: 10px;
-            "
-            >Invite Me</a
-          >
-          <!-- Button to join the support server -->
-          <a
-            class="btn btn-primary smoothScroll shadow-none"
-            role="button"
-            style="
-              margin: 5px;
-              background-color: var(--main-color);
-              border-color: var(--main-color);
-              border-radius: 10px;
-            "
-            href="https://discord.gg/u4uYe3pCRp"
-            >Support</a
-          >
-        </div>
-      </div>
-    </header>
+        Invite Me
+      </a>
+      <!-- Button to join the support server -->
+      <a
+        class="btn btn-primary smoothScroll shadow-none"
+        role="button"
+        style="margin: 5px; background-color: var(--main-color); border-color: var(--main-color); border-radius: 10px;"
+        href="https://discord.gg/u4uYe3pCRp"
+      >
+        Support
+      </a>
+    </div>
+  </div>
+</header>
 
     <!-- Decorative feature section with an SVG wave -->
     <div id="feature" style="height: 90px; background: var(--secondary)">
