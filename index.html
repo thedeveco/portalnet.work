@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Meta data and asset preloading -->
     <meta charset="utf-8" />
+    <!-- Preload the portal logo image for faster display -->
     <link
       rel="preload"
       href="assets/images/portalLogo.png"
       as="image"
       fetchpriority="high"
     />
+    <!-- Page title -->
     <title>Home | Portal</title>
+    <!-- Responsive meta tag for mobile devices -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
+    <!-- Set the page's language -->
     <meta http-equiv="Content-Language" content="en" />
+    <!-- SEO meta tags -->
     <meta
       name="description"
       content="A Borderless Discord Network of Communities"
@@ -26,12 +32,14 @@
     <meta name="og:image" content="assets/images/portalLogo.png" />
     <meta property="og:site_name" content="portalBot" />
     <meta name="theme-color" content="#2291a0" />
+    <!-- Favicon -->
     <link
       rel="icon"
       type="image/png"
       sizes="300x250"
       href="assets/images/portalLogo.png"
     />
+    <!-- External stylesheets and fonts -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -43,11 +51,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
     />
+    <!-- Custom styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
   <body style="background-color: var(--background)">
+    <!-- Top navigation bar container -->
     <div id="top" style="height: 12px">
+      <!-- Navigation bar with fixed positioning -->
       <nav
         class="navbar navbar-light navbar-expand fixed-top"
         style="
@@ -58,6 +69,7 @@
         "
       >
         <div class="container-fluid">
+          <!-- Brand/logo displayed on the navbar -->
           <a
             class="navbar-brand"
             href="#"
@@ -66,25 +78,29 @@
               font-family: 'Alfa Slab One', cursive;
             "
           >
-            portalNetwork </a
-          ><button
+            portalNetwork
+          </a>
+          <!-- Toggle button for collapsing navbar on smaller screens -->
+          <button
             data-toggle="collapse"
             class="navbar-toggler"
             data-target="#navcol-1"
           >
-            <span class="sr-only">Toggle navigation</span
-            ><span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
           </button>
+          <!-- Collapsible part of the navbar -->
           <div class="collapse navbar-collapse" id="navcol-1">
             <ul class="nav navbar-nav">
+              <!-- Link to the features section -->
               <li class="nav-item">
                 <a
                   class="nav-link active smoothScroll"
                   href="#feature"
                   style="color: var(--text-color)"
-                  >Features</a
-                >
+                  >Features</a>
               </li>
+              <!-- Link to add the bot to Discord -->
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -93,6 +109,7 @@
                   >Add to Discord</a
                 >
               </li>
+              <!-- Link to the support server -->
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -106,26 +123,33 @@
         </div>
       </nav>
     </div>
+
+    <!-- Header section with logo, title, description, and call-to-action buttons -->
     <header
       class="d-xl-flex flex-column justify-content-xl-center align-items-xl-center"
       style="height: 418px; text-align: center; margin: 55px"
     >
+      <!-- Portal logo image -->
       <img
         class="rounded"
         src="assets/images/portalLogo.png"
         style="margin-top: 15px"
       />
+      <!-- Main heading for the bot -->
       <h1
         class="d-xl-flex justify-content-xl-start"
         style="color: var(--text-color)"
       >
         portalBot
       </h1>
+      <!-- Short description of the bot -->
       <p style="color: var(--secondary-text-color); font-size: 20px">
         A Borderless Discord Network of Communities
       </p>
+      <!-- Animated call-to-action buttons container -->
       <div class="tada animated">
         <div role="group" class="btn-group">
+          <!-- Button to invite the bot -->
           <a
             href="https://discord.com/oauth2/authorize?client_id=1309741433238065194&permissions=322577&integration_type=0&scope=applications.commands+bot"
             class="btn btn-primary shadow-none"
@@ -138,6 +162,7 @@
             "
             >Invite Me</a
           >
+          <!-- Button to join the support server -->
           <a
             class="btn btn-primary smoothScroll shadow-none"
             role="button"
@@ -153,8 +178,11 @@
         </div>
       </div>
     </header>
+
+    <!-- Decorative feature section with an SVG wave -->
     <div id="feature" style="height: 90px; background: var(--secondary)">
       <div>
+        <!-- SVG element for a decorative wave transition -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="var(--background)"
@@ -164,23 +192,27 @@
         </svg>
       </div>
     </div>
+
+    <!-- Section highlighting the bot features -->
     <div class="features-boxed" style="background: var(--secondary)">
       <div class="container" style="color: var(--main-color)">
+        <!-- Section introduction -->
         <div class="intro">
           <h2 class="text-center" style="color: var(--text-color)">
             Bot Features
           </h2>
         </div>
+        <!-- Grid layout for individual features -->
         <div class="row justify-content-center features">
+          <!-- Feature Item 1: Reliable Servers -->
           <div class="col-sm-6 col-md-5 col-lg-4 item">
             <div id="features" class="box">
-              <!-- Icon -->
+              <!-- Icon for Reliable Servers -->
               <img
                 src="https://cdn.discordapp.com/emojis/1112602480128299079.png"
                 alt="Good Resources Icon"
                 style="width: 70px; height: auto; margin-bottom: 15px"
               />
-              <!-- Adjust size as needed -->
               <h3 class="name">Reliable Servers</h3>
               <p class="description" style="color: var(--secondary-text-color)">
                 All servers on the portalBot network are vetted and monitored to
@@ -188,9 +220,10 @@
               </p>
             </div>
           </div>
+          <!-- Feature Item 2: Trusted by Many -->
           <div class="col-sm-6 col-md-5 col-lg-4 item">
             <div id="features" class="box">
-              <!-- Icon -->
+              <!-- Icon for Trusted by Many -->
               <img
                 src="https://cdn.discordapp.com/emojis/1195874659338555462.png"
                 alt="User Icon"
@@ -204,9 +237,10 @@
               </p>
             </div>
           </div>
+          <!-- Feature Item 3: Easy to use and Clean Commands -->
           <div class="col-sm-6 col-md-5 col-lg-4 item">
             <div id="features" class="box">
-              <!-- Icon -->
+              <!-- Icon for Commands -->
               <img
                 src="https://cdn.discordapp.com/emojis/1195870894501941450.png"
                 alt="Command Icon"
@@ -223,6 +257,8 @@
       </div>
       <div></div>
     </div>
+
+    <!-- Decorative section with an SVG curve transition -->
     <div style="background-color: var(--background)">
       <div style="height: 150px; overflow: hidden">
         <svg
@@ -237,16 +273,21 @@
         </svg>
       </div>
     </div>
+
+    <!-- Bot stats and commands section -->
     <div id="commands">
       <section>
         <div class="container-fluid text-white">
+          <!-- Section heading for bot stats -->
           <h2 class="text-center pb-1 pt-3" style="color: var(--text-color)">
             Bot Stats
           </h2>
+          <!-- Statistics grid layout -->
           <div
             class="row row-cols-3 justify-content-center"
             style="color: var(--secondary-text-color)"
           >
+            <!-- Total Servers statistic -->
             <div
               class="col-auto col-md-3 text-center pb-5 pt-5 number-item love_counter"
             >
@@ -257,6 +298,7 @@
                 Total Servers
               </h4>
             </div>
+            <!-- Total Users statistic -->
             <div
               class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
             >
@@ -267,6 +309,7 @@
                 Total Users
               </h4>
             </div>
+            <!-- Network Servers statistic -->
             <div
               class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
             >
@@ -277,6 +320,7 @@
                 Network Servers
               </h4>
             </div>
+            <!-- Total Messages statistic -->
             <div
               class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
             >
@@ -290,12 +334,14 @@
           </div>
         </div>
       </section>
+      <!-- Commands accordion container (likely filled dynamically with JS) -->
       <div class="container">
         <h2 class="text-center pb-5">Commands</h2>
         <div class="accordion"></div>
       </div>
     </div>
 
+    <!-- Decorative SVG wave at the bottom of the page -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
         fill="var(--secondary)"
@@ -303,8 +349,11 @@
         d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       ></path>
     </svg>
+
+    <!-- Footer section -->
     <div class="footer-dark">
       <div class="row">
+        <!-- Back-to-top button -->
         <div class="col item social">
           <a class="smoothScroll" href="#top">
             <i class="icon ion-android-arrow-up"></i>
@@ -313,9 +362,11 @@
       </div>
       <div class="row">
         <div class="col text-center">
+          <!-- Copyright and ownership -->
           <p class="copyright" style="color: var(--text-color)">
             Own and operated by the devEco © 2025
           </p>
+          <!-- Credits to developers -->
           <p class="developed-by" style="color: var(--text-color)">
             Credits
             <a
@@ -332,7 +383,9 @@
         </div>
       </div>
       <div class="container">
+        <!-- Footer links for GitHub, support, social media, etc. -->
         <div class="footer-links" style="padding: 20px">
+          <!-- GitHub link -->
           <a
             href=" https://github.com/thedeveco"
             class="footer-link-item"
@@ -349,6 +402,7 @@
             ></i>
             <span style="vertical-align: middle">GitHub</span>
           </a>
+          <!-- Support Server link -->
           <a
             href="https://discord.gg/u4uYe3pCRp"
             class="footer-link-item"
@@ -367,7 +421,7 @@
           </a>
 
           <div class="link-divider"></div>
-          <!-- LinkedIn -->
+          <!-- LinkedIn link -->
           <a
             href="https://www.linkedin.com/company/thedeveco/"
             class="footer-link-item"
@@ -384,7 +438,7 @@
             />
             <span style="vertical-align: middle">LinkedIn</span>
           </a>
-          <!-- Youtube -->
+          <!-- Youtube link -->
           <a
             href="https://youtube.com/@thedeveco"
             class="footer-link-item"
@@ -401,7 +455,7 @@
             />
             <span style="vertical-align: middle">Youtube</span>
           </a>
-          <!-- Instagram -->
+          <!-- Instagram link -->
           <a
             href="https://instagram.com/developersecosystem"
             class="footer-link-item"
@@ -419,6 +473,7 @@
             <span style="vertical-align: middle">Instagram</span>
           </a>
           <div class="link-divider"></div>
+          <!-- Legal information link -->
           <a
             href="https://portalnet.work/listing"
             class="footer-link-item"
@@ -433,7 +488,8 @@
         </div>
       </div>
     </div>
-    <!-- Scripts -->
+
+    <!-- JavaScript files loaded at the end of the document for improved performance -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/Counting.js"></script>
