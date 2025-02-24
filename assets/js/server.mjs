@@ -29,7 +29,6 @@ const htmlRoutes = [
   { route: "/tos", file: "../../tos.html" },
   { route: "/listing", file: "../../legal.html" },,
   { route: "/invite", file: "../../invite.html" },
-  { route: "/discord", file: "../../support.html" },
 ];
 
 htmlRoutes.forEach((route) => serveHTML(route.route, route.file));
