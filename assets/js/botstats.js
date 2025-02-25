@@ -1,6 +1,6 @@
 async function fetchBotStats() {
   try {
-    const response = await fetch("https://api.jer.cx/stats");
+    const response = await fetch(getBackendURL() + "/stats");
     const data = await response.json();
     document.getElementById("totalServers").textContent =
       data.currentGuildCount.toLocaleString();

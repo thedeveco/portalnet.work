@@ -364,3 +364,12 @@ div#features:hover {
   text-align: center;
   padding: 18px;
 }
+
+#login img.avatar { /* discord profile picture */
+	width: 1.5em;
+	height: 1.5em;
+	margin: auto auto auto .5em ;
+	border-radius: 100%;
+
+	object-fit: scale-down;
+}

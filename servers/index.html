@@ -37,7 +37,7 @@
       rel="icon"
       type="image/png"
       sizes="300x250"
-      href="assets/images/portalLogo.png"
+      href="/assets/images/portalLogo.png"
     />
     <!-- External stylesheets and fonts -->
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
@@ -102,7 +102,7 @@
                   >Commands</a
                 >
               </li>
-              <!-- Link to the support server -->
+              <!-- Link to the support page -->
               <li class="nav-item">
                 <a
                   class="nav-link"
@@ -147,147 +147,8 @@
         </div>
       </nav>
 
-<!-- Header section with logo, title, description, and call-to-action buttons -->
-<header
-  class="container d-flex flex-column align-content-start"
->
-  <!-- Portal logo image 
-  <img
-    class="rounded"
-    src="assets/images/portalLogo.png"
-    style="margin-top: 15px"
-  />
-  -->
-  <!-- Main heading for the bot -->
-  <h1 class="" style="color: var(--text-color);">
-    Control at Your Fingertips
-  </h1>
-  <!-- Short description of the bot -->
-  <p style="color: var(--secondary-text-color); font-size: 20px;">
-    Take full advantage of portalBot with powerful commands designed for Discord server owners, admins, and community members. Effortlessly manage connections, automate tasks, and interact with the portalNetwork—all from within your Discord server. <br><br>For server owners and admins, the portalNetwork Dashboard provides even more control, allowing you to configure settings, monitor activity, and optimize your server’s experience.
-  </p>
-  <!-- Animated call-to-action buttons container -->
-  <div class="headShake animated">
-    <div role="group" class="btn-group">
-      <!-- Button to invite the bot -->
-      <a
-      href="https://discord.com/oauth2/authorize?client_id=1309741433238065194&permissions=322577&integration_type=0&scope=applications.commands+bot"
-      class="btn btn-primary shadow-none"
-      type="button"
-      style="margin: 5px;
-        background-color: rgba(114, 137, 218, 0.30); /* Adjust last value (0.7) for opacity */
-        border-color: rgba(0, 123, 255, 0.7); 
-        border-radius: 10px; 
-        border: none;
-        transition: background-color 0.3s ease;
-        color: white; /* Ensure text remains fully visible */
-        display: flex;
-        align-items: center;
-        gap: 8px;
-      "
-    >
-    🌌 Invite portalBot
-    </a>
-      <!-- Button to join the support server -->
-      <a
-        class="btn btn-primary smoothScroll shadow-none"
-        role="button"
-        href="/features"
-        style="margin: 5px;
-        background-color: rgba(114, 137, 218, 0.15); /* Adjust last value (0.7) for opacity */
-        border-color: rgba(0, 123, 255, 0.7);
-        border: none;
-        transition: background-color 0.3s ease;
-        display: flex;
-        color: white; /* Ensure text remains fully visible */
-        align-items: center;
-        border-radius: 10px;
-        gap: 8px;"
-        
-      >
-        See Features
-      </a>
-  </div>
-  </div>
-</header>
 
-    <!-- Decorative feature section with an SVG wave -->
-    <div id="feature" style="height: 90px; background: var(--secondary)">
-      <div>
-        <!-- SVG element for a decorative wave transition -->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="var(--background)"
-            fill-opacity="1"
-            d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
-          ></path>
-        </svg>
-      </div>
-    </div>
-
-    <!-- Section highlighting the bot features -->
-    <div class="features-boxed" style="background: var(--secondary)">
-      <div class="container" style="color: var(--main-color)">
-        <!-- Section introduction -->
-        <div class="intro">
-          <h2 class="text-center" style="color: var(--text-color)">
-            Bot Features
-          </h2>
-        </div>
-        <!-- Grid layout for individual features -->
-        <div class="row justify-content-center features">
-          <!-- Feature Item 1: Reliable Servers -->
-          <div class="col-sm-6 col-md-5 col-lg-4 item">
-            <div id="features" class="box">
-              <!-- Icon for Reliable Servers -->
-              <img
-                src="https://cdn.discordapp.com/emojis/1112602480128299079.png"
-                alt="Good Resources Icon"
-                style="width: 70px; height: auto; margin-bottom: 15px"
-              />
-              <h3 class="name">Reliable Servers</h3>
-              <p class="description" style="color: var(--secondary-text-color)">
-                All servers on the portalBot network are vetted and monitored to
-                ensure safety and accurate information.<br />
-              </p>
-            </div>
-          </div>
-          <!-- Feature Item 2: Trusted by Many -->
-          <div class="col-sm-6 col-md-5 col-lg-4 item">
-            <div id="features" class="box">
-              <!-- Icon for Trusted by Many -->
-              <img
-                src="https://cdn.discordapp.com/emojis/1195874659338555462.png"
-                alt="User Icon"
-                style="width: 70px; height: auto; margin-bottom: 15px"
-              />
-              <h3 class="name">Trusted by Many</h3>
-              <p class="description" style="color: var(--secondary-text-color)">
-                Used by <span id="comptotalServers">1000+</span> communities and
-                <span id="comptotalUsers">160k+</span> users, portalbot has
-                earned trust across many communities.<br />
-              </p>
-            </div>
-          </div>
-          <!-- Feature Item 3: Easy to use and Clean Commands -->
-          <div class="col-sm-6 col-md-5 col-lg-4 item">
-            <div id="features" class="box">
-              <!-- Icon for Commands -->
-              <img
-                src="https://cdn.discordapp.com/emojis/1195870894501941450.png"
-                alt="Command Icon"
-                style="width: 70px; height: auto; margin-bottom: 15px"
-              />
-              <h3 class="name">Easy to use and Clean Commands</h3>
-              <p class="description" style="color: var(--secondary-text-color)">
-                All portalbot commands are easy to use and clean responses
-                for best possibly user experience.<br />
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div></div>
+    <div id="guilds" class="pt-4 features-boxed row justify-content-center" style="background: var(--secondary)">
     </div>
 
     <!-- Decorative section with an SVG curve transition -->
@@ -303,73 +164,6 @@
             style="stroke: none; fill: var(--secondary)"
           ></path>
         </svg>
-      </div>
-    </div>
-
-    <!-- Bot stats and commands section -->
-    <div id="commands">
-      <section>
-        <div class="container-fluid text-white">
-          <!-- Section heading for bot stats -->
-          <h2 class="text-center pb-1 pt-3" style="color: var(--text-color)">
-            Bot Stats
-          </h2>
-          <!-- Statistics grid layout -->
-          <div
-            class="row row-cols-3 justify-content-center"
-            style="color: var(--secondary-text-color)"
-          >
-            <!-- Total Servers statistic -->
-            <div
-              class="col-auto col-md-3 text-center pb-5 pt-5 number-item love_counter"
-            >
-              <h1 style="font-size: 70px" id="totalServers">
-                <strong>0</strong>
-              </h1>
-              <h4 style="color: var(--main-color); margin-top: -6px">
-                Total Servers
-              </h4>
-            </div>
-            <!-- Total Users statistic -->
-            <div
-              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
-            >
-              <h1 style="font-size: 70px" id="totalUsers">
-                <strong>0</strong>
-              </h1>
-              <h4 style="color: var(--main-color); margin-top: -6px">
-                Total Users
-              </h4>
-            </div>
-            <!-- Network Servers statistic -->
-            <div
-              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
-            >
-              <h1 style="font-size: 70px" id="totalNetwork">
-                <strong>0</strong>
-              </h1>
-              <h4 style="color: var(--main-color); margin-top: -6px">
-                Network Servers
-              </h4>
-            </div>
-            <!-- Total Messages statistic -->
-            <div
-              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
-            >
-              <h1 style="font-size: 70px" id="totalMessages">
-                <strong>0</strong>
-              </h1>
-              <h4 style="color: var(--main-color); margin-top: -6px">
-                Total Messages
-              </h4>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Commands accordion container (likely filled dynamically with JS) -->
-      <div class="container">
-        <h2 class="text-center pb-5">Commands</h2>
-        <div class="accordion"></div>
       </div>
     </div>
 
@@ -529,5 +323,6 @@
     <script src="/assets/js/botstats.js"></script>
     <script src="/assets/js/commands.js"></script>
     <script src="/assets/js/discord-oauth.js"></script>
+    <script src="/assets/js/guilds.js"></script>
   </body>
 </html>

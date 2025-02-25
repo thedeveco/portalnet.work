@@ -1,5 +1,13 @@
+function getBackendURL() {
+  if (window.location.protocol === "https:") {
+    return "https://api.jer.cx"
+  } else {
+    return "http://localhost:4810"
+  }
+}
+
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("https://api.jer.cx/commands")
+  fetch(getBackendURL() + "/commands")
     .then((response) => response.json())
     .then((data) => {
       const accordionContainer = document.querySelector(".accordion");
