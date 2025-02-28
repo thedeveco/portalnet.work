@@ -1,6 +1,6 @@
 function getBackendURL() {
   if (window.location.protocol === "https:") {
-    return "https://api.jer.cx"
+    return "https://api.portalnet.work"
   } else {
     return "http://localhost:4810"
   }
