@@ -211,69 +211,175 @@
   </div>
 </header>
 
-
-      <!-- Decorative feature section with an SVG wave -->
-      <div id="feature" style="height: 90px; background: var(--secondary)">
-        <div>
-          <!-- SVG element for a decorative wave transition -->
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path
-              fill="var(--background)"
-              fill-opacity="1"
-              d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
-            ></path>
-          </svg>
+    <!-- Decorative feature section with an SVG wave -->
+    <div id="feature" style="height: 90px; background: var(--secondary)">
+      <div>
+        <!-- SVG element for a decorative wave transition -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="var(--background)"
+            fill-opacity="1"
+            d="M0,96L40,112C80,128,160,160,240,144C320,128,400,64,480,48C560,32,640,64,720,69.3C800,75,880,53,960,58.7C1040,64,1120,96,1200,96C1280,96,1360,64,1400,48L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+    </div> 
+    <!-- Section highlighting the bot features -->
+    <div class="features-boxed" style="background: var(--secondary)">
+      <div class="container" style="color: var(--main-color)">
+        <!-- Section introduction -->
+        <div class="intro">
+          <h2 class="text-center" style="color: var(--text-color)">
+            Bot Features
+          </h2>
         </div>
-      </div> 
-  
-      <!-- FAQ Section -->
-      <section id="faq" style="padding: 50px; background: var(--secondary); text-align: left; color: var(--text-color);">
-        <h2>Frequently Asked Questions</h2>
-
-        <div style="max-width: 800px; text-align: left;">
-          <details>
-            <summary><strong>What is this website about?</strong></summary>
-            <p>This website is designed to provide information and resources related to [your topic].</p>
-          </details>
-          <details>
-            <summary><strong>How can I contact support?</strong></summary>
-            <p>You can reach our support team via the contact form on the website or by emailing support@[yourdomain].com.</p>
-          </details>
-          <details>
-            <summary><strong>Do I need an account to use the services?</strong></summary>
-            <p>No, most features are available without an account, but signing up will give you access to additional benefits.</p>
-          </details>
-          <details>
-            <summary><strong>Is my data secure?</strong></summary>
-            <p>Yes, we prioritize user privacy and security by using encryption and secure storage for your data.</p>
-          </details>
-        </div>
-      </section>
-
-      <!-- Decorative section with an SVG curve transition -->
-      <div style="background-color: var(--background)">
-        <div style="height: 150px; overflow: hidden">
-          <svg
-            viewBox="0 0 500 150"
-            preserveAspectRatio="none"
-            style="height: 100%; width: 100%"
-          >
-            <path
-              d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z"
-              style="stroke: none; fill: var(--secondary)"
-            ></path>
-          </svg>
+        <!-- Grid layout for individual features -->
+        <div class="row justify-content-center features">
+          <!-- Feature Item 1: Reliable Servers -->
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div id="features" class="box">
+              <!-- Icon for Reliable Servers -->
+              <img
+                src="https://cdn.discordapp.com/emojis/1112602480128299079.png"
+                alt="Good Resources Icon"
+                style="width: 70px; height: auto; margin-bottom: 15px"
+              />
+              <h3 class="name">Reliable Servers</h3>
+              <p class="description" style="color: var(--secondary-text-color)">
+                All servers on the portalBot network are vetted and monitored to
+                ensure safety and accurate information.<br />
+              </p>
+            </div>
+          </div>
+          <!-- Feature Item 2: Trusted by Many -->
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div id="features" class="box">
+              <!-- Icon for Trusted by Many -->
+              <img
+                src="https://cdn.discordapp.com/emojis/1195874659338555462.png"
+                alt="User Icon"
+                style="width: 70px; height: auto; margin-bottom: 15px"
+              />
+              <h3 class="name">Trusted by Many</h3>
+              <p class="description" style="color: var(--secondary-text-color)">
+                Used by <span id="comptotalServers">1000+</span> communities and
+                <span id="comptotalUsers">160k+</span> users, portalbot has
+                earned trust across many communities.<br />
+              </p>
+            </div>
+          </div>
+          <!-- Feature Item 3: Easy to use and Clean Commands -->
+          <div class="col-sm-6 col-md-5 col-lg-4 item">
+            <div id="features" class="box">
+              <!-- Icon for Commands -->
+              <img
+                src="https://cdn.discordapp.com/emojis/1195870894501941450.png"
+                alt="Command Icon"
+                style="width: 70px; height: auto; margin-bottom: 15px"
+              />
+              <h3 class="name">Easy to use and Clean Commands</h3>
+              <p class="description" style="color: var(--secondary-text-color)">
+                All portalbot commands are easy to use and clean responses
+                for best possibly user experience.<br />
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+      <div></div>
+    </div>
 
-      <!-- Decorative SVG wave at the bottom of the page -->
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="var(--secondary)"
-          fill-opacity="1"
-          d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+    <!-- Decorative section with an SVG curve transition -->
+    <div style="background-color: var(--background)">
+      <div style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M-41.53,-9.56 C167.83,173.98 302.14,-60.89 534.09,89.10 L500.00,0.00 L0.00,0.00 Z"
+            style="stroke: none; fill: var(--secondary)"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Bot stats and commands section -->
+    <div id="commands">
+      <section>
+        <div class="container-fluid text-white">
+          <!-- Section heading for bot stats -->
+          <h2 class="text-center pb-1 pt-3" style="color: var(--text-color)">
+            Bot Stats
+          </h2>
+          <!-- Statistics grid layout -->
+          <div
+            class="row row-cols-3 justify-content-center"
+            style="color: var(--secondary-text-color)"
+          >
+            <!-- Total Servers statistic -->
+            <div
+              class="col-auto col-md-3 text-center pb-5 pt-5 number-item love_counter"
+            >
+              <h1 style="font-size: 70px" id="totalServers">
+                <strong>0</strong>
+              </h1>
+              <h4 style="color: var(--main-color); margin-top: -6px">
+                Total Servers
+              </h4>
+            </div>
+            <!-- Total Users statistic -->
+            <div
+              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
+            >
+              <h1 style="font-size: 70px" id="totalUsers">
+                <strong>0</strong>
+              </h1>
+              <h4 style="color: var(--main-color); margin-top: -6px">
+                Total Users
+              </h4>
+            </div>
+            <!-- Network Servers statistic -->
+            <div
+              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
+            >
+              <h1 style="font-size: 70px" id="totalNetwork">
+                <strong>0</strong>
+              </h1>
+              <h4 style="color: var(--main-color); margin-top: -6px">
+                Network Servers
+              </h4>
+            </div>
+            <!-- Total Messages statistic -->
+            <div
+              class="col-auto col-md-3 text-center align-self-center pb-5 pt-5 love_counter"
+            >
+              <h1 style="font-size: 70px" id="totalMessages">
+                <strong>0</strong>
+              </h1>
+              <h4 style="color: var(--main-color); margin-top: -6px">
+                Total Messages
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Commands accordion container (likely filled dynamically with JS) -->
+      <div class="container">
+        <h2 class="text-center pb-5">Commands</h2>
+        <div class="accordion"></div>
+      </div>
+    </div>
+
+    <!-- Decorative SVG wave at the bottom of the page -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="var(--secondary)"
+        fill-opacity="1"
+        d="M0,160L48,154.7C96,149,192,139,288,154.7C384,171,480,213,576,218.7C672,224,768,192,864,181.3C960,171,1056,181,1152,192C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
 
     <!-- Footer section -->
     <div class="footer-dark">
